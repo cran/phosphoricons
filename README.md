@@ -5,9 +5,10 @@
 
 <!-- badges: start -->
 
+[![version](http://www.r-pkg.org/badges/version/phosphoricons)](https://CRAN.R-project.org/package=phosphoricons)
 [![R-CMD-check](https://github.com/dreamRs/phosphoricons/workflows/R-CMD-check/badge.svg)](https://github.com/dreamRs/phosphoricons/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/dreamRs/phosphoricons/branch/master/graph/badge.svg)](https://codecov.io/gh/dreamRs/phosphoricons?branch=master)
+coverage](https://codecov.io/gh/dreamRs/phosphoricons/branch/master/graph/badge.svg)](https://app.codecov.io/gh/dreamRs/phosphoricons?branch=master)
 <!-- badges: end -->
 
 R wrapper for using [Phosphor
@@ -18,7 +19,13 @@ available icons.
 
 ## Installation
 
-You can install {phosphoricons} from GitHub with:
+Install from CRAN with:
+
+``` r
+install.packages("phosphoricons")
+```
+
+You can install development version from GitHub with:
 
 ``` r
 remotes::install_github("dreamRs/phosphoricons")
