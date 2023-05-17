@@ -6,14 +6,15 @@
 <!-- badges: start -->
 
 [![version](http://www.r-pkg.org/badges/version/phosphoricons)](https://CRAN.R-project.org/package=phosphoricons)
-[![R-CMD-check](https://github.com/dreamRs/phosphoricons/workflows/R-CMD-check/badge.svg)](https://github.com/dreamRs/phosphoricons/actions)
+[![](https://cranlogs.r-pkg.org/badges/phosphoricons?color=brightgreen)](https://cran.r-project.org/package=phosphoricons)
 [![Codecov test
 coverage](https://codecov.io/gh/dreamRs/phosphoricons/branch/master/graph/badge.svg)](https://app.codecov.io/gh/dreamRs/phosphoricons?branch=master)
+[![R-CMD-check](https://github.com/dreamRs/phosphoricons/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dreamRs/phosphoricons/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 R wrapper for using [Phosphor
-Icons](https://github.com/phosphor-icons/phosphor-icons) in shiny
-applications or rmarkdown documents. Visit
+Icons](https://github.com/phosphor-icons/web) in shiny applications or
+rmarkdown documents. Visit
 [phosphoricons.com](https://phosphoricons.com/) for a list of all
 available icons.
 
@@ -84,16 +85,16 @@ ph("lightning", weight = "bold", fill = "gold")
 
 There’s two type of icons:
 
--   SVG icons, created with `ph()`
--   Font icons, created with `ph_i()`
+- SVG icons, created with `ph()`
+- Font icons, created with `ph_i()`
 
 There’s a big debate between Web Fonts vs SVG for icons, but mainly:
 
--   Web fonts require an `htmlDependency` that include all icons even if
-    you use one, it will increase the size of your document in self
-    contained mode.
--   SVG icons won’t currently work with some shiny functions with an
-    `icon` argument.
+- Web fonts require an `htmlDependency` that include all icons even if
+  you use one, it will increase the size of your document in self
+  contained mode.
+- SVG icons won’t currently work with some shiny functions with an
+  `icon` argument.
 
 ## Bonus
 
